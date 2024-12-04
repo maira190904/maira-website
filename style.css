@@ -1,0 +1,45 @@
+/* Left Box */
+.left-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Right Box (Owner and Clock) */
+.right-box {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+/* Owner Box and Clock Box styling */
+.card {
+    background-color: transparent;  /* Change from white to transparent */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* For better readability */
+h2, h4 {
+    margin: 0 0 10px;
+    font-family: 'Calibri', sans-serif;
+}
+
+.mix {
+    font-family: 'Calibri', sans-serif;
+}
+
+.clock-container {
+    text-align: center;
+}
+
+
+/* Flip card container */
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px; /* Horizontal gap */
+    row-gap: 40px; /* Vertical gap (up and down) */
+}
+
